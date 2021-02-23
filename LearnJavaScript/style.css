@@ -1,0 +1,102 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  color: lightslategray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 300%;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+  text-align: center;
+}
+
+p {
+  color: lightslategray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 160%;
+}
+
+.images {
+  align-items: center;
+}
+
+h6 {
+  border: 2px solid purple;
+  padding: 40px;
+  margin: 50px;
+}
+
+.patrick {
+  font-size: 200%;
+  color: green;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: separate;
+}
+
+th {
+  text-align: left;
+}
+
+#MyId {
+  background-color: cornflowerblue;
+}
+
+.ImportantNote {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.redtext {
+  color: rosybrown;
+  font-size: 150%;
+  text-align: center;
+}
+
+.responsiveText {
+  font-size: 5vw;
+}
+
+#MyId{
+  color: chocolate;
+}
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: lightblue;
+  padding: 20px;
+  float: left;
+  width: 20%;
+}
+
+.main {
+  background-color: lightcoral;
+  padding: 20px;
+  float: left;
+  width: 60%;
+}
+
+.right {
+  background-color: lightseagreen;
+  padding: 20px;
+  float: left;
+  width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  .left,
+  .main,
+  .right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+  <head>
+    <title>JavaScript Introduction</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>What can JavaScript do?</h1>
+
+    <p id="demo">We can use JavaScript to change HTML content.</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "This updated!"''>Use JavaScript !</button>
+
+    <hr>
+
+    <button onclick="document.getElementById('myImage').src='/Resources/pic_bulbon.gif'">Turn on</button>
+
+    <img id="myImage" src="/Resources/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='/Resources/pic_bulboff.gif'">Turn off</button>
+
+  </body>
+</html>
