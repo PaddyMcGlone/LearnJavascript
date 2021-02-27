@@ -12,4 +12,4 @@ y = 6;
 
 z = x + y;
 
-document.getElementById("demo").innerHTML = "The total is: " + z;
+document.getElementById("demo").innerHTML = "5" + 2 + 3;
