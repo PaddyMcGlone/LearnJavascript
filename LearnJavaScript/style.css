@@ -9,6 +9,12 @@ h1 {
   text-align: center;
 }
 
+h1 #clock {
+  font-size: 36px;
+  display: block;
+  padding: 5px 0px;
+}
+
 h2 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
