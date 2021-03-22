@@ -1,5 +1,5 @@
 var showCurrentTime = function() {
-    
+
     var clock = document.getElementById('clock');
 
     var currentTime = new Date();
@@ -16,7 +16,7 @@ var showCurrentTime = function() {
         seconds = "0" + seconds;
     }
 
-    clock.innerText = hours + ':' + minutes + ':' + seconds;
+    clock.innerText = hours + ':' + minutes + ':' + seconds;    
 };
 
 showCurrentTime();
